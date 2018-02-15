@@ -1,0 +1,68 @@
+body {
+  height: 100%
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: black !important;
+  color: white;
+}
+
+  #logo {
+    color: white;
+  }
+
+.container-fluid.menu {
+  background-color: #3d2d2d;
+}
+
+.content {
+  border: solid 3px grey;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+  #name {
+    text-align: center;
+  }
+
+  .img-responsive {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .pokeName {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+#footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   height: 45px;
+   text-align: center;
+}
+
+  #link {
+    margin: auto;
+  }

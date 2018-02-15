@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creative 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-top">
+      <div class="container-fluid menu">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="logo" href="index.html">PokeData</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#"  id="menu">Pokemon</a></li>
+            <li><a href="#">Items</a></li>
+            <li><a href="#">Locations</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-lg-4"></div>
+        <div class="col-md-4 col-lg-4">
+          <form>
+            <div class="form-group text-center">
+              <label>Enter the name or Pokedex ID of a Pokemon</label>
+              <input class="form-control" id="pokeInput">
+            </div>
+            <button type="submit" class="btn btn-default center-block" id="pokeSubmit">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-4 col-lg-4"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="pokeResults"></div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container-fluid">
+        <a href="https://github.com/jswalker808/creative2" id="link">Link to GitHub Repository</a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
