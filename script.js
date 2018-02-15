@@ -12,8 +12,13 @@ $(document).ready(function() {
         results += "<div class=\"col-sm-4 col-lg-4\"></div>";
         results += "<div class=\"col-sm-4 col-lg-4 content\">";
         results += "<img src=\"" + json.sprites.front_default + "\" class=\"img-responsive\">";
-        results += "<h3 class=\"pokeName\">" + json.name + "</h3>"
+        results += "<h3 class=\"pokeName\">" + json.name + "</h3><br>"
         results += "<p>ID: " + json.id + "</p>";
+        results += "<p>Type: ";
+        for (i = 0; i < json.types.length; i++) {
+          results += json.types[i].type.name + " ";
+        }
+        results += "</p>";
         results += "<p>Height: " + json.height + "</p>";
         results += "<p>Weight: " + json.weight + "</p>";
 

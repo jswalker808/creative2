@@ -2,6 +2,10 @@ body {
   height: 100%
 }
 
+img {
+  margin-top: 5px;
+}
+
 .nav.navbar-nav.navbar-right li a {
   color: white;
 }
@@ -21,7 +25,7 @@ body {
   }
 
 .container-fluid.menu {
-  background-color: #3d2d2d;
+  background-color: #DC0909;
 }
 
 .content {
@@ -30,6 +34,8 @@ body {
   padding: 10px;
   text-align: center;
   margin: 10px;
+  background-color: #E6E6E6;
+  text-transform: capitalize;
 }
 
   .row {
