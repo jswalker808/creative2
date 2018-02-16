@@ -12,8 +12,8 @@ $(document).ready(function() {
         results += "<div class=\"col-sm-4 col-lg-4\"></div>";
         results += "<div class=\"col-sm-4 col-lg-4 content\">";
         results += "<img src=\"" + json.sprites.front_default + "\" class=\"img-responsive\">";
-        results += "<h3 class=\"pokeName\">" + json.name + "</h3><br>"
-        results += "<p>ID: " + json.id + "</p>";
+        results += "<h3 class=\"pokeName\">" + json.name + " #" + json.id + "</h3><br>"
+        // results += "<p>ID: " + json.id + "</p>";
         results += "<p>Type: ";
         for (i = 0; i < json.types.length; i++) {
           results += json.types[i].type.name + " ";
@@ -21,17 +21,9 @@ $(document).ready(function() {
         results += "</p>";
         results += "<p>Height: " + json.height + "</p>";
         results += "<p>Weight: " + json.weight + "</p>";
-
         results += "<div class=\"col-sm-4 col-lg-4\"></div>";
         $("#pokeResults").html(results);
       }
     });
   });
 });
-
-function addAbilities(array, string) {
-  string += "<p>Abilities: </p>";
-  for (var i = 0; i < array.length; i++) {
-    string += "<p></p>"
-  }
-}
